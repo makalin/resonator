@@ -1,0 +1,25 @@
+[package]
+name = "resonator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mehmet T. AKALIN"]
+description = "A high-performance, real-time MIDI sequencer and mixer for the terminal"
+license = "MIT"
+repository = "https://github.com/makalin/resonator"
+
+[dependencies]
+ratatui = "0.27"
+crossterm = "0.28"
+midir = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bin]]
+name = "resonator"
+path = "src/main.rs"
+

@@ -1,0 +1,16 @@
+{
+  "midi_output_port": null,
+  "default_bpm": 120.0,
+  "default_time_signature": [
+    4,
+    4
+  ],
+  "default_velocity": 100,
+  "default_note_length": 480,
+  "auto_save": false,
+  "auto_save_interval": 300,
+  "theme": "Dark",
+  "piano_roll_zoom": 10,
+  "step_sequencer_steps": 16,
+  "step_sequencer_steps_per_beat": 4
+}
